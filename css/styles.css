@@ -1,14 +1,18 @@
+body {
+    margin: 0 auto;
+}
 .nav-bar {
     height: 75px;
     width: 100%;
-    background-color: rgba(153, 204, 255, .8);
-    margin-top: 0%;
+    background-color: rgba(236, 217, 198, .8);
+    top: 0;
     position: fixed;
 }
 
 .list-items {
     list-style: none;
     margin-right: 15px;
+    margin-top: 13px;
     display: inline-block;
     color: #fff;
 }
@@ -24,44 +28,79 @@ li a {
 }
 
 .banner {
-    background-image: url('../img/alone2.jpg');
-    height: 350px;
+    background-image: url(../img/alone2.jpg);
+    height: 375px;
     width: 100%;
-    border: 1px dashed blue;
     background-size: 100% 100%;
-    /*margin-top: 75px;*/
+    margin-top: 75px;
+    box-shadow: 1px 1px 1px;
+}
+.body {
+    display: block;
+}
+.body-col {
+    height: 600px;
+    width: 425px;
+    display: inline-block;
+    box-shadow: 1px 1px 1px;
+    vertical-align: top;
+    margin: 25px;
+    margin-top: 60px;
 }
 
-.float-left {
-    height: 500px;
-    width: 490px;
-    margin-left: 50px;
-    float: left;
-    margin-top: 75px;
+.tree {
+    height: 525px;
+    margin: 20px;
 }
 p {
-    margin: 5px;
+    margin: 7px;
     
 }
 
 .hippie {
-    border: 1px solid rgb(153, 204, 255);
-    float: right;
-    height: 300px;
-    width: 425px;
-    box-shadow: 1px 1px 1px;
+    /*border: 1px solid rgb(153, 204, 255);*/
+    /*box-shadow: 1px 1px 1px;*/
     
 }
 
-.top {
-    margin: 10px;
-    margin-top: 130px;
+.footer {
+    height: 75px;
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    margin-top: 60px;
 }
 
-.bottom {
-    margin-top: 250px;
+.footer-col {
+    width:32%;
+    height: 75px;
+    /*border: 1px dashed white;*/
+    display: inline-block;
+    vertical-align: top;
+    margin: 2px;
 }
 
-/*.shadow {*/
-/*    text-shadow: 1px 1px 1px;*/
-/*}*/
+.footer-button {
+    height: 25px;
+    width: 75px;
+    border-radius: 20px;
+    font-size: 17px;
+    margin-left: 197px;
+    margin-top: 25px;
+    background-color: rgba(236, 217, 198, .8);
+}
+
+.icon {
+    color: rgba(236, 217, 198, .8);;
+}
+
+.social-wrap {
+    margin-left: 175px;
+    margin-top: 22px;
+    
+}
+
+.rights {
+    color: rgba(236, 217, 198, .8);
+    margin-top: 23px;
+    margin-left: 60px;
+}
