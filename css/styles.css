@@ -1,0 +1,67 @@
+.nav-bar {
+    height: 75px;
+    width: 100%;
+    background-color: rgba(153, 204, 255, .8);
+    margin-top: 0%;
+    position: fixed;
+}
+
+.list-items {
+    list-style: none;
+    margin-right: 15px;
+    display: inline-block;
+    color: #fff;
+}
+
+li a {
+    text-decoration: none;
+    margin-top: 5px;
+
+}
+
+.nav-items {
+    float: right;
+}
+
+.banner {
+    background-image: url('../img/alone2.jpg');
+    height: 350px;
+    width: 100%;
+    border: 1px dashed blue;
+    background-size: 100% 100%;
+    /*margin-top: 75px;*/
+}
+
+.float-left {
+    height: 500px;
+    width: 490px;
+    margin-left: 50px;
+    float: left;
+    margin-top: 75px;
+}
+p {
+    margin: 5px;
+    
+}
+
+.hippie {
+    border: 1px solid rgb(153, 204, 255);
+    float: right;
+    height: 300px;
+    width: 425px;
+    box-shadow: 1px 1px 1px;
+    
+}
+
+.top {
+    margin: 10px;
+    margin-top: 130px;
+}
+
+.bottom {
+    margin-top: 250px;
+}
+
+/*.shadow {*/
+/*    text-shadow: 1px 1px 1px;*/
+/*}*/
