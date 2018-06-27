@@ -6,13 +6,13 @@ body {
     width: 100%;
     background-color: rgba(236, 217, 198, .8);
     top: 0;
-    position: fixed;
+    position: absolute;
 }
 
 .list-items {
     list-style: none;
     margin-right: 15px;
-    margin-top: 13px;
+    margin-top: 1px;
     display: inline-block;
     color: #fff;
 }
@@ -25,6 +25,7 @@ li a {
 
 .nav-items {
     float: right;
+    margin-top: 19px;
 }
 
 .banner {
@@ -44,8 +45,9 @@ li a {
     display: inline-block;
     box-shadow: 1px 1px 1px;
     vertical-align: top;
-    margin: 25px;
+    margin: 20px;
     margin-top: 60px;
+    margin-bottom: 75px
 }
 
 .tree {
@@ -67,7 +69,7 @@ p {
     height: 75px;
     width: 100%;
     background-color: rgb(38, 38, 38);
-    margin-top: 60px;
+    /*margin-top: 60px;*/
 }
 
 .footer-col {
@@ -101,6 +103,6 @@ p {
 
 .rights {
     color: rgba(236, 217, 198, .8);
-    margin-top: 23px;
+    margin-top: 33px;
     margin-left: 60px;
 }

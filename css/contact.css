@@ -1,0 +1,23 @@
+.message {
+    margin: 0 auto;
+    margin-top: 75px;
+    border: 1px solid red;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    color: #fff;
+    
+}
+
+
+/*.contact-info {*/
+/*    border: 1px dashed red;*/
+    /*margin: 0 auto;*/
+/*    margin-top: 75px;*/
+/*}*/
+.map {
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    margin-right: 500px;
+}

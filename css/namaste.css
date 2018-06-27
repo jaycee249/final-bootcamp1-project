@@ -1,0 +1,30 @@
+body {
+	margin: 0 auto;
+	
+}
+
+.backgound {
+	background-image: url('.../img/goldfish.jpg');
+	background-position: center;
+	background-size: 100% 100%;
+	margin: top: 75px;
+}
+
+.box-background {
+    background-color: rgba(230, 172, 0, .4);
+    height: 425px;
+    width: 675px;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    top: 475px;
+    left: 28%;
+    /*box-shadow: 1px 1px .5px;*/
+    border-radius: .5%
+	
+}
+
+.video {
+	padding: 35px;
+}
+
