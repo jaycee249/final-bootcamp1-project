@@ -3,15 +3,15 @@ body {
 	
 }
 
-.backgound {
-	background-image: url('.../img/goldfish.jpg');
+.background {
+	background-image: url('../img/goldfish.jpg');
 	background-position: center;
 	background-size: 100% 100%;
-	margin: top: 75px;
+	margin-top: 75px;
 }
 
 .box-background {
-    background-color: rgba(230, 172, 0, .4);
+    background-color: rgba(230, 92, 0, .4);
     height: 425px;
     width: 675px;
     margin: 0 auto;
